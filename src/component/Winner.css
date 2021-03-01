@@ -1,0 +1,35 @@
+.members{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content2{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.image{
+    width: 250px;
+    height: 250px;
+     margin-top :20px;
+      border-radius:30px;
+}
+@media only screen and (max-width: 600px){
+    .image{
+        width: 85px;
+        height: 85px;
+         margin-top :5px;
+          border-radius:20px;}
+    .content2{
+            width: 80px;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            padding: 20px;
+        }
+}
