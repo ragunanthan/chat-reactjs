@@ -1,5 +1,4 @@
 import React from 'react';
-import "./Chat.css";
 import Status from "./Status.js";
 import Msg from "./Msg.js";
 
