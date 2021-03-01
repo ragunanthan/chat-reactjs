@@ -8,4 +8,6 @@ In the project directory, you can run:
 
 ### `yarn start`
 
-###`link to view app : https://chat-reactjs-personal.netlify.app/`
+### link to view app : 
+
+https://chat-reactjs-personal.netlify.app/
