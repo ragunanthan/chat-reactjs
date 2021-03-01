@@ -1,0 +1,49 @@
+.img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50vh;
+}
+.userdetail{
+    display: flex;
+
+}
+.name-email{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name-email>p:first-child{
+    font-size: 2.5vh;
+
+    font-weight: 600;
+}
+.name-email>p:last-child{
+    font-size: 2.5vh;
+    margin-top: -2vh;
+}
+
+
+@media only screen and (max-width: 600px){
+    .img{
+        margin-top: 5px;
+        width: 8vh;
+        height: 8vh;
+        border-radius: 50vh;
+    }
+    .name-email{
+        padding: 2px;
+        padding-left: 10px;
+    }
+    .name-email>p:first-child{
+        font-size: 2vh;
+        margin-top: 1.5vh;
+        font-weight: 700;
+    }
+    .name-email>p:last-child{
+        font-size: 2vh;
+        margin-top: -2vh;
+    }
+
+}

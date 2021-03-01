@@ -1,0 +1,9 @@
+.status{
+    display: flex;
+    justify-content: center;
+  }
+  .status-bg{
+    font-size: 2vh;
+    width: 100%;
+    text-align: center;
+  }

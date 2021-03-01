@@ -1,0 +1,38 @@
+.msg-left{
+    width: auto;
+    display: flex;
+    color: black;
+    padding: 5px 20px 5px 20px;
+  }
+  .msg-right{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    margin: 5px 20px 0px 5px;
+
+  }
+  .msg-data>p:first-child{
+    height: 5vh;
+    font-size: 1.8vh;
+    color: blanchedalmond;
+    margin: 0%;
+  }
+  .msg-data>p:last-child{
+ 
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 0px 20px 20px 20px;
+    margin: -15px 0px 0px 0px;
+  }
+  .user-msg{
+
+    background-color: lightskyblue;
+    padding: 5px 20px 0px 20px;
+    border-radius: 20px 0px 20px 20px;
+    margin: 0px;
+  }
+  .user-msg>p{
+
+    margin: 0px;
+  }
