@@ -1,47 +1,156 @@
-
-.navigationbar{
-  display: flex;
-  justify-content: space-around;
-  margin-top: -6px;
-  margin-bottom: 1px;
-}
-.nav-item{
-  padding: 20px;
-  text-decoration: none;
-  color: black;
-}
-.nav-item:hover{
-  padding: 20px;
-  text-decoration: none;
-  color: black;
-}
-.content{
-  margin-top: 4px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  background-color: white;
-  border-radius: 20px;
-  height: 350px;
-  width: 1000px;
-}
-.main{
-  background-color:  rgb(192, 192, 192);
+body{
+  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  padding: 40px 80px 20px 80px;
+  
 }
-@media only screen and (max-width: 600px) {
-  .content{
-    margin-top: 4px;
+.App {
+  background-color: white;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+.user-info{
+  width: 30%;
+  height: 100%;
+}
+.header-container{
+  width: 70%;
+  height: 100%;
+}
+.user{
+  
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(247, 192, 200, 0.534);
+  border-right: 1px solid black;
+}
+.info{
+  height: 80%;
+  border-top: 1px solid black;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3%;
+  background-color: rgba(0, 174, 255, 0.185);
+  height: 15%;
+}
+.maincontainer{
+  height: 85%;
+  color: white;
+  border: 1px solid black;
+  background-image: url(./chatimg.jpg);
+  background-size: 110% ;
+  background-repeat: no-repeat;
+}
+.chat-container::-webkit-scrollbar {
+  display: none;
+}
+.chat-container{
+  height: 90%;
+  overflow-x:hidden;
+  overflow-y:visible;
+}
+.chat-container-input{
+  height: 10%;
+}
+
+.lap-info{
+  display: block;
+  height: 100%;
+}
+.mobile-info{
+  display: none;
+}
+.active-users{
+  height: 10%;
+  display: flex;
+  padding-top: 10px;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 110%;
+  background-color: rgba(0, 174, 255, 0.185);
+  text-align: center;
+}
+.member-scroll{
+  overflow-x:hidden;
+  overflow-y:visible;
+}
+.member-scroll::-webkit-scrollbar {
+  display: none;
+}
+.div {
+  width: 25px;
+  height: 2px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+@media only screen and (max-width: 600px){
+  body{
+    padding: 13px;
+  }
+  .App {
+    background-color: white;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    box-shadow: 0px 0px 10px 1px black;
+  }
+  .user-info{
+    width: 100%;
+    height: 10%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    
+  }
+  .user{
+    border: none;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: white;
-    border-radius: 40px;
-    height: 205px;
-    width: 390px;
+  }
+  .info{
+    border: none;
+    width: 20%;
+    height: 100%;
+  }
+  .header-container{
+    width: 100%;
+    height: 90%;
+  }
+  .header{
+    display: none;
+  }
+  .lap-info{
+    display: none;
+  }
+  .mobile-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 100%;
+  }
+  .maincontainer{
+    height: 100%;
+    background-image: url(./chatimg1.jpg);
   }
 
 }
+
+
